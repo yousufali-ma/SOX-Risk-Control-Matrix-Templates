@@ -1,0 +1,4 @@
+Control_ID,Process,Risk_Description,Control_Description,Control_Owner,Frequency,Testing_Method
+ITOP-01,Access Management,Unauthorized users retain access after termination leading to data breach.,HR notifies IT within 24 hours of termination. IT disables Active Directory and ERP access within 1 business day.,IT Service Desk,Daily,Inspection/Reperformance
+ITOP-02,Change Management,Unauthorized code deployed to production causing system downtime.,All production changes must be accompanied by a Jira ticket approved by the CAB (Change Advisory Board) prior to deployment.,Release Manager,Per Occurrence,Inspection
+ITOP-03,Job Processing,Batch job failures go unnoticed impacting financial month-end close.,Automated alerts are sent to the IT Operations team for any batch job failures. Helpdesk tickets are automatically generated.,IT Ops Lead,Daily,Observation
